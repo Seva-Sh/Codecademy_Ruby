@@ -43,3 +43,6 @@ case choice
         puts "#{movie}: #{rating}"
       end
     end
+  else
+    puts "You can only enter 'add' or 'update' or 'display' or 'delete'"
+end
